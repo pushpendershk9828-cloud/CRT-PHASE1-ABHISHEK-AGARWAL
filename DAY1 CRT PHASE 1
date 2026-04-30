@@ -24,3 +24,14 @@ cin > localvariable;
 result=Colobalvarioble / localvarabte):
 cout < result < endl;
 return 0;
+
+Give sides of triangle are equilateral or not
+
+int main(){
+int side1,side2, side3;
+CLn› sidel >›side2 > side3;
+bool isEqu = (side1 › 0) && (sidel — side2) && (side2 - side3);
+
+cout < isEqu < endl; 
+return 0;
+
