@@ -1,0 +1,13 @@
+#include ‹iostream>
+using namespace std;
+
+int globalvariable = 100;
+
+int main() {
+int localvariable;
+int result;
+cin > localvariable;
+
+result=Colobalvarioble / localvarabte):
+cout < result < endl;
+return 0;
