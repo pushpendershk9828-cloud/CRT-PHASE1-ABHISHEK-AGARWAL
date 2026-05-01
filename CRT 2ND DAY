@@ -124,3 +124,25 @@ default;
 cout <<"Enter a valla cholce...;
 }
 
+//NESTED IF-ELSE CONDIION
+#include <iostream>
+using namespace std;
+
+int main) {
+string dayornight;
+bool motionDetected;
+
+cout « "is it Day or Night?.."?"
+cin >> dayurnight;
+cout «"Is motion detected?..";
+cin >> motiondetectea;
+
+if(dayOrNight — "Night" || dayOrNight — "night"){
+if(motionDetected){
+coUt <<"Turn ON the LED with 100% brightness";
+}else {
+cout < "Turn ON the LED with 10% brightness";
+}
+}else {
+cout « "Turn OFF the Lights...";
+}
