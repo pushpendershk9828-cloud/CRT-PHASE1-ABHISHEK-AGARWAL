@@ -68,6 +68,8 @@ cout < max_number;
 return0;
 
 switch statement // day problemm
+#include<iostream>
+using namespace std;
 int main(){
 int dayNumber
 cin >> dayNumber;
@@ -97,3 +99,28 @@ break;
 default;
 cout<<"enter a valid number";
 }
+
+//customer support ivr systemm
+#include <iostream>
+using namespace std;
+int main() {
+int choice;
+cin » choice;
+
+switch (choice) {
+case1;
+cout«" Transferring call to the support team..
+break;
+case 2;
+cout «"Transferring call to the billing and accounts department..";
+break;
+case 3:
+cout« "Connecting call to the technical Team...";
+break;
+case 4"
+cout «"Please wait while we are connecting your call to an agent...";
+break;
+default;
+cout <<"Enter a valla cholce...;
+}
+
