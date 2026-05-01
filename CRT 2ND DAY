@@ -50,3 +50,20 @@ cout « "Not eligible for vote...";
 }
 }
 }
+
+//using ternary opertor
+#include < iostream> 
+using namespace std;
+
+int main(){
+int a, b;
+int max_number;
+cout <<"enter ist number: ";
+cin >> a;
+cout <<"enter Znd number: ";
+cin > b;
+// logic for ternary opeartor
+max_number = (a > b) ? a : b;
+cout < max_number;
+return0;
+return 0;
