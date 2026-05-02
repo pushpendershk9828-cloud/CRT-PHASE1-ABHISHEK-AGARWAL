@@ -94,3 +94,19 @@ cout«"It is a prime number...";
 break;
 }
 }
+
+// PROBLEM 8 //Smart phone unlock
+
+#include <iostream› 
+using namespace std;
+
+int main () {
+int password;
+
+do{
+   cout « "Enter your password here.."; 
+cin >> password;
+} while(password != 1234);
+
+cout « "Phone Unlocked...";
+}
