@@ -32,3 +32,19 @@ int main(){
     int c = a+b;
     cout<<c;
 }
+
+//Problem 3 
+//functions with some values and some return values
+
+#include<iostream>
+using namespace std;
+
+int calculateArea(int length, int width){
+   return length * width; 
+}
+int main(){
+    int a=10;
+    int b=5;
+    int area=calculateArea(a,b);
+    cout<<area;
+}
