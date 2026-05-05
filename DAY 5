@@ -48,3 +48,17 @@ int main(){
     int area=calculateArea(a,b);
     cout<<area;
 }
+
+//Problem 4 
+//Types of functions
+//Program 4.1 -- no argument,no return Types
+
+#include<iostream>
+using namespace std;
+
+void bellRing(){
+    cout<<"Ting Tong...";
+}
+int main(){
+    bellRing();
+}
