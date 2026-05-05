@@ -62,3 +62,16 @@ void bellRing(){
 int main(){
     bellRing();
 }
+
+//Problem 4.2 -- argument,no return values 
+
+#include<iostream>
+using namespace std;
+
+void sendMessage(string message){
+    cout<<message;
+}
+
+int main(){
+    sendMessage("BJP wons...");
+}
