@@ -11,3 +11,19 @@ int billing(int a){
 int main(){
     cout<<billing(5);
 }
+
+//Program --2
+//Store discount application //Program
+//Find 10% -- amount * 0.10
+//discounted amount -- amount - 10% wala
+
+#include <iostream>
+using namespace std;
+
+int discountedAmount(int a){
+    return a -(a  *0.10);
+}
+
+int main(){
+    cout<<discountedAmount(1000);
+}
