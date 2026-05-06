@@ -59,3 +59,22 @@ int main() {
 
     return 0;
 }
+
+//Program --4
+//Pointers
+//Declaration,initialization,Arithmetic operation through pointer 
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int a=10;
+    int *ptr1=&a;
+    
+    int b=20;
+    int *ptr2=&b;
+    
+    int c=a+b;
+    int c=*ptr1+ *ptr2;
+    cout<<c;
+}
