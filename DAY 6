@@ -27,3 +27,35 @@ int discountedAmount(int a){
 int main(){
     cout<<discountedAmount(1000);
 }
+
+
+// Program 3 // Smart AC remote
+#include <iostream>
+#include <string>
+using namespace std;
+
+void setTemprature() {
+    cout << "Temprature Set to 22°C" << "\n";
+}
+
+void setTemprature(double temp) {
+    cout << "Temprature Set to " << temp << "°C" << "\n";
+}
+
+void setTemprature(string mode) {
+    if (mode == "ECONOMY MODE") {
+        cout << "Temprature set to 25 °C\n";
+    }
+    else if (mode == "Power Chill Turbo") {
+        cout << "Temprature set to 16 °C\n";
+    }
+}
+
+int main() {
+    setTemprature();
+    setTemprature(20.5);
+    setTemprature("ECONOMY MODE");
+    setTemprature("Power Chill Turbo");
+
+    return 0;
+}
