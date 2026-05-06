@@ -123,3 +123,24 @@ int main(){
     s1.introduce();
     s2.introduce();
 }
+
+//Problem -- 7
+//Access specifier
+//types --7.1 --public
+//        7.2 --private
+//        7.3 --protected
+
+//7.1 --public
+#include<iostream>
+using namespace std;
+
+class publicPark{
+    public:
+    void enter(){
+        cout<<"Anyone can enter in the park...";
+    }
+};
+int main(){
+    publicPark p;
+    p.enter();
+}
