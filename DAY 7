@@ -107,3 +107,42 @@ int main(){
     wifiConnection w1;
     w1.showDetails();
 }
+
+//Program --5
+//Constructor overloading
+
+#include<iostream>
+using namespace std;
+
+class Rectangle {
+    public:
+    int length;
+    int width;
+    //Constructor --1(default constructor)
+    Rectangle(){
+        length=10;
+        width=20;
+    }
+    
+    //Constructor --2(Parameterized constructor)
+    Rectangle(int l){
+        width=20;
+    }
+    //Constructor --3
+    Rectangle(int l, int b){
+        length=l;
+        width=b;
+    }
+    void area(){
+        cout<<length * width;
+    }
+};
+
+int main(){
+    //Rectangle r1;
+    //r1.area();
+    Rectangle r2(5);
+    r2.area();
+    Rectangle r3(5,2);
+    r3.area();
+}
