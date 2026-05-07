@@ -16,3 +16,23 @@ int main(){
     updatebyReference(original);
     cout<<original<<"\n";
 }
+
+//Program --2
+//Access specifiers
+//private
+
+#include<iostream>
+using namespace std;
+
+class BankAccount{
+    private:
+    int balance=5000;
+    public:
+    void showBalance(){
+        cout<<balance;
+    }
+};
+int main() {
+    BankAccount obj1;
+    obj1.showBalance();
+}
