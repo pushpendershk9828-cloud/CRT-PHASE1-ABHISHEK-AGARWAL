@@ -157,3 +157,31 @@ int main(){
     D obj1;
     obj1.print();
 }
+
+#include<iostream>
+using namespace std;
+
+//Problem --2
+//Encapsulation
+
+class BankAccount {
+    private:
+    int bankBalance;
+    
+    void setBalance(int amount) {
+       if(amount >= 0){
+           bankBalance = amount;
+       } else {
+           cout<<"Enter a valid amount...";
+       }
+    }
+    int getbalance(){
+       return bankBalance;
+    }
+};
+
+int main(){
+    BankAccount obj1;
+    obj1.setBalance(5000);
+    cout<<obj1.getbalance();
+}
